@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS 2D Transformation</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+            text-align: center;
+            font-family: Arial;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: royalblue;
+            color: white;
+            margin: 150px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+
+            transition: transform 0.5s;
+        }
+
+        .box:hover {
+            transform: rotate(20deg) scale(1.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    
+
+    <div class="box">
+        Hover over me!
+    </div>
+
+</body>
+</html>
